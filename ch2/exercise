@@ -1,0 +1,51 @@
+#include<iostream>
+using namespace std;
+
+//习题3
+int main3(){
+	char c1 = 'a', c2 = 'b', c3 = 'c', c4 = '\101', c5 = '\116';
+	cout << c1 << c2 << c3 << '\n';
+	cout << "\t\b" << c4 << '\t' << c5 << '\n';
+	return 0;
+}
+
+//习题4
+int main4(){
+	char c1 = 'C', c2 = '+', c3 = '+';
+	cout << "I say:\"" << c1 << c2 << c3 << '\"' << '\n';
+	cout << "\t\t" << "He says:\"C++ is very interesting!\"" << '\n';
+	return 0;
+}
+
+//习题7
+int main7(){
+	int i, j, m, n;
+	i = 8;
+	j = 10;
+	m = ++i + j++;
+	n = (++i) + (++j) + m;
+	cout << i << '\t' << j << '\t' << m << '\t' << n << endl;
+	return 0;
+}
+
+//习题8 ASCII码的转换 参考例题2.2 把字母改为后面的第4个字母
+int main8(){
+	char c1, c2, c3, c4, c5;
+	c1 = 'C';
+	c2 = 'h';
+	c3 = 'i';
+	c4 = 'n';
+	c5 = 'a';
+	c1 = c1 + 4;
+	c2 = c2 + 4;
+	c3 = c3 + 4;
+	c4 = c4 + 4;
+	c5 = c5 + 4;
+	cout << c1 << c2 << c3 << c4 << c5 << endl;
+	return 0;
+}
+
+int main(){
+	main8();
+	return 0;
+}
